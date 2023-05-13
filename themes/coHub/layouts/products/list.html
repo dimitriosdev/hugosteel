@@ -1,0 +1,27 @@
+{{ define "main"}}
+<section class="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="page-header">
+          <div class="story-slider">
+            {{range .Params.sliderImage }}
+              <div class="slider-item">
+                <img src="{{ .image | absURL }}" alt="images">
+              </div>
+            {{end}}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ partial "gallery.html" . }}
+{{ partial "testimonial.html" . }}
+{{ partial "client.html" . }}
+{{ partial "investor.html" . }}
+{{ partial "contactAddress.html" . }}
+
+
+{{end}}

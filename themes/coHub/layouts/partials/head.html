@@ -1,0 +1,50 @@
+  <head>
+    <meta charset="utf-8" />
+    <title>{{.Title}}</title>
+
+    {{ "<!--Meta For No Index-->" | safeHTML }}
+    <meta name="robots" content="noindex, Nofollow, Noimageindex">
+
+    <meta content="Μελέτες, κατασκευές και τοποθετήσεις ολοκληρωμένων συστημάτων αλουμινίου, μεταλλικών κατασκευών και θωρακισμένων πορτών." name="description">
+
+    {{ "<!--mobile responsive meta-->" | safeHTML }}
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+
+    <meta content="summary_large_image" name="twitter:card">
+    <meta content="SteelMade — Συστήματα Αλουμινίου, Μεταλλικές κατασκευές" property="og:title">
+    <meta content="Μελέτες, κατασκευές και τοποθετήσεις ολοκληρωμένων συστημάτων αλουμινίου, μεταλλικών κατασκευών και θωρακισμένων πορτών." property="og:description">
+    <!-- <meta content="https://astrowind.vercel.app" property="og:url"> -->
+    <meta content="website" property="og:type">
+    <!-- <meta content="https://astrowind.vercel.app/_astro/default.5cdc518a_Z2ogFX1.png" property="og:image"> -->
+    <meta content="SteelMade — Συστήματα Αλουμινίου, Μεταλλικές κατασκευές" property="og:image:alt">
+
+    {{hugo.Generator}}
+    {{ "<!-- Critical CSS -->" | safeHTML }}
+    {{$style :=  resources.Get "scss/critical.scss" | resources.ToCSS | resources.Minify }}
+    <link href="{{ $style.Permalink }}" rel="stylesheet" />
+  
+
+    {{"<!-- Favicon -->" | safeHTML}}
+    <link rel="shortcut icon" href="{{"images/favicon.ico" | absURL}}" type="image/x-icon" />
+    <link rel="icon" href="{{"images/favicon.png" | absURL}}" type="image/x-icon" />
+
+    {{ with .Site.Params.googleAnalytics }}
+    {{ "<!-- Global Site Tag (gtag.js) - Google Analytics -->" | safeHTML }}
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+  
+      gtag('config', '{{ . }}');
+      
+    </script>
+    {{ end }}
+
+    
+  </head>
+
