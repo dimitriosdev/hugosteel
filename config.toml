@@ -1,4 +1,4 @@
-baseURL = 'https://cohub-hugo.netlify.app'
+baseURL = 'https://hugosteel.netlify.app'
 languageCode = 'el'
 paginate = 6
 theme= "coHub"
