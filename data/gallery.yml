@@ -1,9 +1,18 @@
 ---
-title : "Take a look at Our Exibhition"
+title : "Ποιοι είμαστε"
 enable: true
 subtitle: >
-        We are the world’s largest provider of flexible workspace solutions,
-        with customers including some of the most successful entrepreneurs
+        Παρέχουμε πρωτοποριακές λύσεις μεταλλικών κατασκευών και κουφωμάτων αλουμινίου, εξυπηρετώντας ένα διακεκριμένο πελατολόγιο. 
+
+details: >
+        Η εταιρία μας μελετά, κατασκευάζει και τοποθετεί ολοκληρωμένα συστήματα αλουμινίου, μεταλλικές κατασκευές, θωρακισμένες πόρτες, αίθρια.
+
+services:
+- service: "ολοκληρωμένα συστήματα αλουμινίου"
+- service: "μεταλλικές κατασκευές"
+- service: "θωρακισμένες πόρτες"
+- service: "αίθρια"
+
 galleryImage: 
  - image: "images/gallery/gallery01.jpg"
  - image: "images/gallery/gallery02.jpg"

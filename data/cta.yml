@@ -1,6 +1,6 @@
 ---
 enable: true
-title: "Visit coHub for a day."
+title: "Ζητήστε μας προσφορά."
 buttonTarget: contact
-priceLink: "#priceLink"
+priceLink: "/contact"
 ---

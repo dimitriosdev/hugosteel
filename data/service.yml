@@ -1,38 +1,24 @@
 ---
 enable: true
-title: "Why Choose us?"
+title: "Γιατί εμάς"
 subtitle: >
-          We enable people and businesses to work where they want, 
-          when they want and how they want.
+          Μας προτιμούν γιατί προσφέρουμε 
 services:
-  - name: "largest Network"
+  - name: "Τον καλύτερο συνδυασμό ποιότητας και τιμής Ταχύτητα"
     description: >
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error vel mollitia sit.
-                Dicta maxime ullam quos sapiente eveniet odio accusamus.
+                
     icon: "ti-view-grid"
-  - name: "All Sizes And Budget"
+  - name: "συνέπεια και επαγγελματισμό"
     description: >
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error vel mollitia sit.
-                Dicta maxime ullam quos sapiente eveniet odio accusamus.
+                
     icon: "ti-infinite"
-  - name: "Dedicated Account Manager"
+  - name: "Πιστοποιήσεις ISO "
     description: >
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error vel mollitia sit.
-                Dicta maxime ullam quos sapiente eveniet odio accusamus.
+        σύμφωνα με τις πιο αυστηρές ευρωπαικές οδηγίες 
     icon: "ti-help-alt"
-  - name: "Easy Payment"
+  - name: "Όργανωμένο τμήμα service"
     description: >
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error vel mollitia sit.
-                Dicta maxime ullam quos sapiente eveniet odio accusamus.
+        μετά το πέρας κάθε κατασκευής
     icon: "ti-credit-card"
-  - name: "Dedicated Locker"
-    description: >
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error vel mollitia sit.
-                Dicta maxime ullam quos sapiente eveniet odio accusamus.
-    icon: "ti-lock"
-  - name: "Personalization"
-    description: >
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error vel mollitia sit.
-                Dicta maxime ullam quos sapiente eveniet odio accusamus.
-    icon: "ti-image"
+
 ---
